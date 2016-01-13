@@ -11,14 +11,11 @@ class Home extends MainController
         $this->model = new \app\models\Home();
         $this->view = 'home/index';
 
-        $this->render('header', array('title' => 'Novinky',));
-
         $data['download'] = 'Here you can download';
         $data['ahoj'] = 'Say hi';
         $data['novinky'] = $this->model->news();
-        $this->render($this->view, $data);
 
-        $this->render('footer');
+        $this->render($this->view, $data);
     }
 
 }

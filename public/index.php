@@ -2,7 +2,7 @@
 
 define('ROOT', dirname(dirname(__FILE__)));
 define('DS', DIRECTORY_SEPARATOR);
-define('pub', 'public');
+define('PUB', 'public');
 //Set to 'dev' for debugging
 define('ENVIRONMENT', 'dev');
 

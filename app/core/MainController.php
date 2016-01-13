@@ -11,15 +11,11 @@ class MainController
     {
         $data['controller'] = !isset($data['controller']) ? str_replace('app\\controllers\\', '', get_called_class()) : null;
         extract($data);
-        if($path == 'header')
-        {
-            require_once ROOT.DS.'app'.DS.'views'.DS.'_include'.DS.'header.php';
-        } elseif($path == 'footer') {
-            require_once ROOT.DS.'app'.DS.'views'.DS.'_include'.DS.'footer.php';
-        } else {
-            $path = str_replace('/', DS, $path);
-            require_once ROOT.DS.'app'.DS.'views'.DS.$path.'.php';
-        }
+        $path = str_replace('/', DS, $path);
+        ob_start();
+        require_once ROOT.DS.'app'.DS.'views'.DS.$path.'.php';
+        $layout_content = ob_get_clean();
+        require_once ROOT.DS.'app'.DS.'views'.DS.'_include'.DS.'layout.php';
     }
 
 }
