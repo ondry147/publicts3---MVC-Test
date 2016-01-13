@@ -1,94 +1,25 @@
-<!--Slider-->
-<section id="slide-show">
-    <div id="slider" class="sl-slider-wrapper">
-
-        <!--Slider Items-->
-        <div class="sl-slider">
-            <!--Slider Item1-->
-            <div class="sl-slide item1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-                <div class="sl-slide-inner">
-                    <div class="container">
-                        <img class="pull-right" src="<?= PUB ?>/assets/images/sample/slider/img1.png" alt="" />
-                        <h2>Creative Ideas</h2>
-                        <h3 class="gap">Tincidunt condimentum eros</h3>
-                        <a class="btn btn-large btn-transparent" href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <!--/Slider Item1-->
-
-            <!--Slider Item2-->
-            <div class="sl-slide item2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-                <div class="sl-slide-inner">
-                    <div class="container">
-                        <img class="pull-right" src="<?= PUB ?>/assets/images/sample/slider/img2.png" alt="" />
-                        <h2>Planning &amp; Analysis</h2>
-                        <h3 class="gap">Aenean ultricies mi vitast</h3>
-                        <a class="btn btn-large btn-transparent" href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <!--Slider Item2-->
-
-            <!--Slider Item3-->
-            <div class="sl-slide item3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-                <div class="sl-slide-inner">
-                    <div class="container">
-                        <img class="pull-right" src="<?= PUB ?>/assets/images/sample/slider/img3.png" alt="" />
-                        <h2>Unique Solutions</h2>
-                        <h3 class="gap">Breatures who have been utterly</h3>
-                        <a class="btn btn-large btn-transparent" href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <!--Slider Item3-->
-
-        </div>
-        <!--/Slider Items-->
-
-        <!--Slider Next Prev button-->
-        <nav id="nav-arrows" class="nav-arrows">
-            <span class="nav-arrow-prev"><i class="icon-angle-left"></i></span>
-            <span class="nav-arrow-next"><i class="icon-angle-right"></i></span>
-        </nav>
-        <!--/Slider Next Prev button-->
-
-    </div>
-    <!-- /slider-wrapper -->
-</section>
-<!--/Slider-->
-
-<section class="main-info">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span9">
-                <h4>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</h4>
-                <p class="no-margin">Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet</p>
-            </div>
-            <div class="span3">
-                <a class="btn btn-success btn-large pull-right" href="http://shapebootstrap.net">Free Download Nova</a>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!--Services-->
 <section id="services">
     <div class="container">
         <div class="center gap">
-            <h3>What We Offer</h3>
-            <p class="lead">Look at some of the recent projects we have completed for our valuble clients</p>
+            <h3>Kdo jsme?</h3>
+            <p class="lead">Jsme veřejný komunikační teamspeak3 server, který běží už od 6. 8. 2014.</p>
         </div>
 
         <div class="row-fluid">
             <div class="span4">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-globe icon-medium"></i>
+                        <i class="icon-heart icon-medium"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Web Design</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                        <h4 class="media-heading">"Sociální síť"</h4>
+                        <p>
+                            Náš server není obyčejný komunikační server. Jde v podstatě o sociální síť, kterou můžete
+                            použít např. na obyčejný pokec nebo také pro komunikaci při hraní online her.
+
+                        </p>
                     </div>
                 </div>
             </div>
@@ -96,11 +27,15 @@
             <div class="span4">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-thumbs-up-alt icon-medium"></i>
+                        <i class="icon-calendar icon-medium"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Graphic Design</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                        <h4 class="media-heading">Dostupnost</h4>
+                        <p>
+                            Veřejný teamspeak3 server Vám poskytujeme ZDARMA již od 6.8.2014.
+                            Proto, pokud se s přáteli rozhodnete scházet právě na našem serveru,
+                            se nemusíte bát, že další měsíc již server nepoběží jak to bývá u většiny ostatních serverů.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -108,86 +43,64 @@
             <div class="span4">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-leaf icon-medium icon-rounded"></i>
+                        <i class="icon-group icon-medium"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Email Marketing</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                        <h4 class="media-heading">Komunita</h4>
+                        <p>
+                            Na našem serveru naleznete skvělou komunitu a také vstřícný admin tým, která vám vždy rád pomůže -
+                            ať už je to třeba vytvoření soukromé místnosti nebo přiřazení určité ikonky(CS:GO hráč, WoW hráč a podobně)
+                            , kterých máme spoustu.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="gap"></div>
 
-        <div class="row-fluid">
-            <div class="span4">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-shopping-cart icon-medium"></i>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Ecommerce Solution</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="span4">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-globe icon-medium"></i>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">SEO &amp; Solution</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="span4">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-globe icon-medium"></i>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Bootstrap</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     </div>
 </section>
 <!--/Services-->
 
+<section class="main-info">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span9">
+                <h4>
+                    Pro připojení na náš veřejný teamspeak3 server použijte naši lehce zapamatovatelnou IP adresu:
+                    publicts3.cz
+                </h4>
+                <p class="no-margin">Nebo stačí jednoduše kliknout na tlačítko "připojit se".
+                Nezapomeňte si nás po prvním připojení přidat do záložky oblíbených.</p>
+            </div>
+            <div class="span3">
+                <a class="btn btn-success btn-large pull-right" href="ts3server://publicts3.cz?port=9987">Připojit se</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="recent-works">
     <div class="container">
         <div class="center">
-            <h3>Our Recent Works</h3>
-            <p class="lead">Look at some of the recent projects we have completed for our valuble clients</p>
+            <h3>Poskytujeme...</h3>
+            <p class="lead">Vybrané projekty také podporujeme teamspeak3 serverem</p>
         </div>
         <div class="gap"></div>
         <ul class="gallery col-4">
             <!--Item 1-->
             <li>
                 <div class="preview">
-                    <img alt=" " src="<?= PUB ?>/assets/images/portfolio/thumb/item1.jpg">
+                    <img alt=" " src="<?= PUB ?>/assets/img/poskytujeme/gta-v-skupina.jpg">
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="#modal-1"><i class="icon-eye-open"></i></a><a href="#"><i class="icon-link"></i></a>
+                        <a href="https://www.facebook.com/groups/gta5czsk/" target="_blank"><i class="icon-eye-open"></i></a><a href="ts3server://publicts3.cz?port=9987"><i class="icon-external-link-sign"></i></a>
                     </div>
                 </div>
                 <div class="desc">
-                    <h5>Lorem ipsum dolor sit amet</h5>
-                </div>
-                <div id="modal-1" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="<?= PUB ?>/assets/images/portfolio/full/item1.jpg" alt=" " width="100%" style="max-height:400px">
-                    </div>
+                    <h5>Teamspeak3 server pro největší GTA 5 skupinu na facebooku</h5>
                 </div>
             </li>
             <!--/Item 1-->
@@ -195,21 +108,15 @@
             <!--Item 2-->
             <li>
                 <div class="preview">
-                    <img alt=" " src="<?= PUB ?>/assets/images/portfolio/thumb/item2.jpg">
+                    <img alt=" " src="<?= PUB ?>/assets/img/poskytujeme/japko-streamer.jpg">
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="#modal-1"><i class="icon-eye-open"></i></a><a href="#"><i class="icon-link"></i></a>
+                        <a href="http://www.twitch.tv/japkoocsgo" target="_blank"><i class="icon-eye-open"></i></a><a href="ts3server://publicts3.cz?port=1337"><i class="icon-external-link-sign"></i></a>
                     </div>
                 </div>
                 <div class="desc">
-                    <h5>Lorem ipsum dolor sit amet</h5>
-                </div>
-                <div id="modal-1" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="<?= PUB ?>/assets/images/portfolio/full/item2.jpg" alt=" " width="100%" style="max-height:400px">
-                    </div>
+                    <h5>Teamspeak3 server pro známého streamera - jAPKO</h5>
                 </div>
             </li>
             <!--/Item 2-->
@@ -217,21 +124,15 @@
             <!--Item 3-->
             <li>
                 <div class="preview">
-                    <img alt=" " src="<?= PUB ?>/assets/images/portfolio/thumb/item3.jpg">
+                    <img alt=" " src="<?= PUB ?>/assets/img/poskytujeme/david-kaparzo-streamer.png">
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="#modal-3"><i class="icon-eye-open"></i></a><a href="#"><i class="icon-link"></i></a>
+                        <a href="http://www.twitch.tv/kaparzogo" target="_blank"><i class="icon-eye-open"></i></a><a href="ts3server://publicts3.cz?port=9999"><i class="icon-external-link-sign"></i></a>
                     </div>
                 </div>
                 <div class="desc">
-                    <h5>Lorem ipsum dolor sit amet</h5>
-                </div>
-                <div id="modal-3" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/portfolio/full/item3.jpg" alt=" " width="100%" style="max-height:400px">
-                    </div>
+                    <h5>Teamspeak3 server pro známého stramera - Kaparzo</h5>
                 </div>
             </li>
             <!--/Item 3-->
@@ -239,21 +140,15 @@
             <!--Item 4-->
             <li>
                 <div class="preview">
-                    <img alt=" " src="<?= PUB ?>/assets/images/portfolio/thumb/item4.jpg">
+                    <img alt=" " src="<?= PUB ?>/assets/img/poskytujeme/eclot.jpg">
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="#modal-4"><i class="icon-eye-open"></i></a><a href="#"><i class="icon-link"></i></a>
+                        <a href="http://eclot.eu" target="_blank"><i class="icon-eye-open"></i></a><a href="ts3server://publicts3.cz?port=1948"><i class="icon-external-link-sign"></i></a>
                     </div>
                 </div>
                 <div class="desc">
-                    <h5>Lorem ipsum dolor sit amet</h5>
-                </div>
-                <div id="modal-4" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="<?= PUB ?>/assets/images/portfolio/full/item4.jpg" alt=" " width="100%" style="max-height:400px">
-                    </div>
+                    <h5>Teamspeak3 server pro eSport tým - Eclot</h5>
                 </div>
             </li>
             <!--/Item 4-->
@@ -263,59 +158,3 @@
 
 </section>
 
-<section id="clients" class="main">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span2">
-                <div class="clearfix">
-                    <h4 class="pull-left">OUR PARTNERS</h4>
-                    <div class="pull-right">
-                        <a class="prev" href="#myCarousel" data-slide="prev"><i class="icon-angle-left icon-large"></i></a> <a class="next" href="#myCarousel" data-slide="next"><i class="icon-angle-right icon-large"></i></a>
-                    </div>
-                </div>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-            </div>
-            <div class="span10">
-                <div id="myCarousel" class="carousel slide clients">
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="active item">
-                            <div class="row-fluid">
-                                <ul class="thumbnails">
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client1.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client2.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client3.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client4.png"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="row-fluid">
-                                <ul class="thumbnails">
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client4.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client3.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client2.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client1.png"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="row-fluid">
-                                <ul class="thumbnails">
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client1.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client2.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client3.png"></a></li>
-                                    <li class="span3"><a href="#"><img src="<?= PUB ?>/assets/images/sample/clients/client4.png"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Carousel items -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>

@@ -61,10 +61,12 @@ class App
                     $temp_controller = '\\app\\controllers\\'.$controller;
                     if(!next($path) AND !method_exists(new $temp_controller, 'index'))
                     {
-                        self::redirect('error/404');
+                        self::redirect('error/stranka-nenalezena-404');
                     } else {
                         $this->controller = 'app\\controllers\\'.$controller;
                     }
+                } else {
+                    self::redirect('error/stranka-nenalezena-404');
                 }
                 array_shift($path);
             }
